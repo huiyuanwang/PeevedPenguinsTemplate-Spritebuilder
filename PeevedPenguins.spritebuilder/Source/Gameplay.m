@@ -43,6 +43,7 @@
     // start catapult dragging when a touch inside of the catapult arm occurs
     if (CGRectContainsPoint([_catapultArm boundingBox], touchLocation))
     {
+        CCLOG(@"Yes, touch catched");
         // move the mouseJointNode to the touch position
         _mouseJointNode.position = touchLocation;
         
