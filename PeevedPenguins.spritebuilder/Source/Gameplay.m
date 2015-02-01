@@ -28,6 +28,9 @@
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
     
+    // sign up as the collision delegate of our physics node
+    _physicsNode.collisionDelegate = self;
+    
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
     
@@ -131,6 +134,11 @@
 - (void)retry {
     // reload this level
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
+}
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    CCLOG(@"Something collided with a seal!");
 }
 
 @end
