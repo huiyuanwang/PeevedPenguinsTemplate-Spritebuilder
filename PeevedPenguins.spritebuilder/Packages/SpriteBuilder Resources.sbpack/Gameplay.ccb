@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>225</real>
-						<real>303</real>
+						<real>233</real>
+						<real>304</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -203,7 +203,7 @@
 					<key>value</key>
 					<array>
 						<real>0.0</real>
-						<real>13</real>
+						<real>14</real>
 					</array>
 				</dict>
 				<dict>
@@ -213,7 +213,7 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>16</real>
+						<real>14</real>
 						<real>150</real>
 					</array>
 				</dict>
@@ -267,6 +267,8 @@
 					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1388,7 +1390,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<false/>
+									<true/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -1420,7 +1422,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>225</real>
+											<real>233</real>
 											<real>290</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1465,8 +1467,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
