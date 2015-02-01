@@ -54,6 +54,7 @@
 
 - (void)touchMoved:(CCTouch *)touch withEvent:(UIEvent *)event
 {
+    CCLOG(@"Yes, touch moved");
     // whenever touches move, update the position of the mouseJointNode to the touch position
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     _mouseJointNode.position = touchLocation;
