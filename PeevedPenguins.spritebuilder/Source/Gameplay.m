@@ -28,7 +28,7 @@
     [_levelNode addChild:level];
     
     // visualize physics bodies & joints
-    _physicsNode.debugDraw = TRUE;
+    _physicsNode.debugDraw = FALSE;
     
     // nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
@@ -43,7 +43,6 @@
     // start catapult dragging when a touch inside of the catapult arm occurs
     if (CGRectContainsPoint([_catapultArm boundingBox], touchLocation))
     {
-        CCLOG(@"Yes, touch is inside catapult arm");
         // move the mouseJointNode to the touch position
         _mouseJointNode.position = touchLocation;
         
