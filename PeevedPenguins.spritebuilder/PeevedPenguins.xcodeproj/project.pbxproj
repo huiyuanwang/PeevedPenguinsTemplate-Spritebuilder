@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
+		96228A981A7ECABA0036C6FE /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 96228A971A7ECABA0036C6FE /* WaitingPenguin.m */; };
 		96CD957C1A7E0F8E0012A99A /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD957B1A7E0F8E0012A99A /* Penguin.m */; };
 		96CD95821A7E0FA10012A99A /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD95811A7E0FA10012A99A /* Seal.m */; };
 		96CD95851A7E140E0012A99A /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD95841A7E140E0012A99A /* Gameplay.m */; };
@@ -74,6 +75,8 @@
 
 /* Begin PBXFileReference section */
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		96228A961A7ECABA0036C6FE /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitingPenguin.h; path = Source/WaitingPenguin.h; sourceTree = "<group>"; };
+		96228A971A7ECABA0036C6FE /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitingPenguin.m; path = Source/WaitingPenguin.m; sourceTree = "<group>"; };
 		96CD957A1A7E0F8E0012A99A /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Penguin.h; path = Source/Penguin.h; sourceTree = "<group>"; };
 		96CD957B1A7E0F8E0012A99A /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
 		96CD95801A7E0FA10012A99A /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				96CD95811A7E0FA10012A99A /* Seal.m */,
 				96CD95831A7E140E0012A99A /* Gameplay.h */,
 				96CD95841A7E140E0012A99A /* Gameplay.m */,
+				96228A961A7ECABA0036C6FE /* WaitingPenguin.h */,
+				96228A971A7ECABA0036C6FE /* WaitingPenguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 			files = (
 				96CD95821A7E0FA10012A99A /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				96228A981A7ECABA0036C6FE /* WaitingPenguin.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				96CD957C1A7E0F8E0012A99A /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
